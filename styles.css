@@ -24,17 +24,19 @@ h1, p, a, div {
 
 .qr-container > h1,
 .qr-container > p {
-    margin: 5% 10%;
+    margin: 3% 10%;
 }
 
 #qr-code-title {
     color: hsl(218, 44%, 22%);
     font-size: 20px;
+    font-weight: 700;
 }
 
 #qr-code-span {
     color: hsl(220, 15%, 55%);
     font-size: 15px;
+    font-weight: 400;
 }
 
 /* not part of the challenge */
