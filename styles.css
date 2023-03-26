@@ -1,0 +1,99 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+h1, p, a, div {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+.qr-container {
+    width: 320px;
+    height: 490px;
+    margin: calc( ((100vh - 490px) / 2) )
+            calc( (100vw - 320px) / 2 );
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+}
+
+#qr-code-img {
+    width: 90%;
+    border-radius: 5%;
+    margin: 5%;
+}
+
+.qr-container > h1,
+.qr-container > p {
+    margin: 5% 10%;
+}
+
+#qr-code-title {
+    color: hsl(218, 44%, 22%);
+    font-size: 20px;
+}
+
+#qr-code-span {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+
+/* not part of the challenge */
+.attribution {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+}
+
+.attribution > * {
+    font-size: 0.75em;
+    margin: 0 5px;
+}
+
+.rate {
+    display: inline-block;
+    width: 0.75em;
+    height: 0.75em;
+    background-color: rgb(155, 205, 238);
+    margin: 0 2px;
+    border-radius: 50%;
+}
+
+.rate-lit {
+    background-color: rgb(81, 140, 180);
+}
+
+.separator {
+    display: inline-block;
+    
+    border: solid 2px #597175;
+}
+
+@media only screen and (min-width: 425px) {
+    .attribution {
+        flex-direction: row;
+    }
+
+    .separator {
+        width: 0;
+        min-height: 15px;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    .attribution {
+        flex-direction: column;
+    }
+
+    .separator {
+        width: 30px;
+        height: 0;
+        margin: 3px 0;
+    }
+}
