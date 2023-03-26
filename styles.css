@@ -77,11 +77,24 @@ h1, p, a, div {
     border: solid 2px #597175;
 }
 
+@media only screen and (min-width: 881px) {
+    .text-cutter {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .text-cutter {
+        display: inline-block;
+    }
+}
+
 @media only screen and (min-width: 425px) {
     .attribution {
         flex-direction: row;
     }
 
+    
     .separator {
         width: 0;
         min-height: 15px;
