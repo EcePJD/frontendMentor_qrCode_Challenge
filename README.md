@@ -19,12 +19,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./result.jpg)
+![](./result.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/EcePJD/frontendMentor_qrCode_Challenge)
+- Live Site URL: [Add live site URL here](https://ecepjd.github.io/frontendMentor_qrCode_Challenge/)
 
 ## My process
 This challenge was checking my knowledge in basic html and css. My original plan was just to use flex box and be done with it. But I wanted to try using the calc function of the css.
